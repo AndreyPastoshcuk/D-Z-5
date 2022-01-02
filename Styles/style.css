@@ -209,7 +209,6 @@ body {
 
 .footer-list {
   margin: 24px 0 0;
-  display: inline-block;
   text-align: center;
 }
 
@@ -221,6 +220,11 @@ body {
   padding-left: 16px;
   list-style: none;
 }
+
+.footer-el:first-of-type {
+  margin-left: 0;
+}
+
 .footer-el:hover {
   color: #d52047;
 }
